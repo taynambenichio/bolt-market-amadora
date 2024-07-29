@@ -4,5 +4,8 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/bolt-market-amadora"
+  base: "/bolt-market-amadora",
+  server: {
+    port: 3000,
+  },
 })
